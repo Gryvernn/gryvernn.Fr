@@ -80,4 +80,8 @@ document.addEventListener("DOMContentLoaded", function() {
         sessionStorage.setItem("cookiesAccepted", "true");
         document.getElementById("cookie-popup").style.display = "none";
     });
+    document.getElementById("refuse-cookies").addEventListener("click", function() {
+        sessionStorage.setItem("cookiesAccepted", "true");
+        document.getElementById("cookie-popup").style.display = "none";
+    });
 });
