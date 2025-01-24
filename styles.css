@@ -9,6 +9,15 @@ body {
     overflow-x: hidden;
 }
 
+.creator-img{
+    width: 200px;
+    border-radius: 9%;
+    border: solid;  
+    border-width: 6px;
+    border-color: #122258;
+    margin:auto;
+    margin-bottom: 5%;
+}
 body::before {
     content: "";
     position: fixed; 
